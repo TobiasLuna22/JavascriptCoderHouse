@@ -3,10 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simulador de Plazo Fijo</title>
+    <title>Tienda Online</title>
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-    <h1>Simulador de Plazo Fijo</h1>
+    <header>
+        <h1>Tienda Online</h1>
+        <input type="text" id="search" placeholder="Buscar productos..." oninput="searchProducts()">
+        <div id="cart">Carrito (0)</div>
+    </header>
+    <main id="product-list"></main>
+    <section id="cart-section" style="display: none;">
+        <h2>Carrito de Compras</h2>
+        <div id="cart-items"></div>
+        <p id="total-price">Total: $0</p>
+        <button onclick="checkout()">Finalizar Compra</button>
+    </section>
+    <footer>
+        <p>&copy; 2024 Tienda Online</p>
+    </footer>
     <script src="./JS/app.js"></script>
 </body>
 </html>
