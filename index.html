@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda Online</title>
+    <title>Zapolain</title>
     <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
     <header>
-        <h1>Tienda Online</h1>
+        <h1>Zapolain</h1>
         <input type="text" id="search" placeholder="Buscar productos..." oninput="searchProducts()">
         <div id="cart">Carrito (0)</div>
     </header>
@@ -20,8 +20,9 @@
         <button onclick="checkout()">Finalizar Compra</button>
     </section>
     <footer>
-        <p>&copy; 2024 Tienda Online</p>
+        <p>&copy; Zapolain Products</p>
     </footer>
+    <div id="notification" style="display:none; position:fixed; top:10px; right:10px; background-color:green; color:white; padding:10px; border-radius:5px;"></div>
     <script src="./JS/app.js"></script>
 </body>
 </html>
