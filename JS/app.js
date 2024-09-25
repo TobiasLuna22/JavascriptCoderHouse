@@ -5,10 +5,10 @@ const products = [
     { id: 4, name: 'Zapatilla para mujer', price: 250, description: 'Zapatilla para el género femenino.', image: 'https://static.futbolfactory.es/products/248645_1.webp' },
     { id: 5, name: 'Zapatilla de Fitness', price: 120, description: 'Zapatilla ideal para el gimnasio.', image: 'https://static.futbolfactory.es/products/248615_1.webp' },
     { id: 6, name: 'Zapatilla Botín', price: 180, description: 'Zapatilla para jugar al fútbol.', image: 'https://static.futbolfactory.es/products/247756_1.webp' },
-    { id: 7, name: 'Zapatilla de Senderismo', price: 220, description: 'Zapatilla resistente para trekking.', image: 'https://example.com/zapatilla-senderismo.jpg' },
-    { id: 8, name: 'Zapatilla de Correr', price: 150, description: 'Zapatilla ligera para correr largas distancias.', image: 'https://example.com/zapatilla-correr.jpg' },
-    { id: 9, name: 'Zapatilla de Skate', price: 130, description: 'Zapatilla diseñada para el skateboarding.', image: 'https://example.com/zapatilla-skate.jpg' },
-    { id: 10, name: 'Zapatilla de Moda', price: 260, description: 'Zapatilla estilizada para el uso diario.', image: 'https://example.com/zapatilla-moda.jpg' },
+    { id: 7, name: 'Zapatilla de Senderismo', price: 220, description: 'Zapatilla resistente para trekking.', image: 'https://static.futbolfactory.es/products/247756_1.webp' },
+    { id: 8, name: 'Zapatilla de Correr', price: 150, description: 'Zapatilla ligera para correr largas distancias.', image: 'https://static.futbolfactory.es/products/247756_1.webp' },
+    { id: 9, name: 'Zapatilla de Skate', price: 130, description: 'Zapatilla diseñada para el skateboarding.', image: 'https://static.futbolfactory.es/products/247756_1.webp' },
+    { id: 10, name: 'Zapatilla de Moda', price: 260, description: 'Zapatilla estilizada para el uso diario.', image: 'https://static.futbolfactory.es/products/247756_1.webp' },
 ];
 
 let cart = JSON.parse(localStorage.getItem('cart')) || [];
